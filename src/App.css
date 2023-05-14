@@ -1,0 +1,47 @@
+/* Header CSS */
+.header-container {
+  overflow: hidden;
+  padding: 20px 10px;
+  padding-bottom: 60px;
+}
+
+.header-left {
+  float: left;
+  height: 100px;
+  width: 310px;
+}
+
+.header-left img {
+  padding-top: 8px;
+  height: 80px;
+}
+
+.header-left h1 {
+  float: right;
+  font-size: 45px;
+
+}
+
+.header-right {
+  float: right;
+  padding-top:30px;
+  padding-right:10px;
+}
+
+.header-right button {
+
+background-color: white;
+border: solid;
+border-width: 3px;
+border-color: rgb(3, 7, 89);
+border-radius: 0.1rem;
+border-radius: 16px;
+box-sizing: border-box;
+color:  rgb(3, 7, 89);
+cursor: pointer;
+padding: 15px 16px;
+text-align: center;
+text-transform: uppercase;
+touch-action: manipulation;
+width: 80px;
+}

@@ -1,0 +1,45 @@
+.card {
+    width: 300px;
+    height: 400px;
+    background: transparent;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(3, 7, 89);
+    border-radius: 0.3rem;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.057);
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+
+}
+
+.card img {
+    height: 100%;
+}
+
+.top-container {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 250px;
+}
+
+.bottom-container {
+    margin-top:30px;
+    margin-left: 10px;
+}
+
+.bottom-container h3 {
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+
+.bottom-container p {
+    margin: 2px;
+}
+
+.bottom-container a {
+    color: rgb(228, 16, 133);
+    text-decoration: none;
+}
