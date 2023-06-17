@@ -1,17 +1,29 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import './Card.css'
+import '../css/Card.css'
 
 const Card = (props) => { 
     
-    const [gift, setGift] = useState({id: 0, name: "", pricepoint: "", audience: "", image: ""})
+    const [gift, setGift] = useState({
+        id: 0,
+        name: '',
+        pricepoint: '',
+        audience: '',
+        image: ''
+    })
 
     useEffect(() => {
-        setGift({id: props.id, name: props.name, pricepoint: props.pricepoint, audience: props.audience, image: props.image});
-    }, [props]);
+        setGift({
+            id: props.id,
+            name: props.name,
+            pricepoint: props.pricepoint,
+            audience: props.audience,
+            image: props.image
+        })
+    }, [props])
 
     return (
-        <div className="card">
+        <div className='card'>
             <div className='top-container' style={{ backgroundImage:`url(${gift.image})`}}></div>
             <div className='bottom-container'>
                 <h3>{gift.name}</h3>
