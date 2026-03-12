@@ -15,11 +15,11 @@ const GiftDetails = ({data}) => {
 
     return (
         <div className="GiftDetails">
-            <main id="gift-content" class="gift-info">
-                <div class="image-container">
+            <main id="gift-content" className="gift-info">
+                <div className="image-container">
                     <img id="image" src={gift.image} />
                 </div>
-                <div class="gift-details">
+                <div className="gift-details">
                     <h2 id="name">{gift.name}</h2>
                     <p id="submittedBy">{'Submitted By: ' + gift.submittedby}</p>
                     <p id="pricePoint">{'Price: ' + gift.pricepoint}</p>

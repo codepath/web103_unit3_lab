@@ -5,8 +5,8 @@ import './PageNotFound.css'
 const PageNotFound = () => { 
     return (
         <div className="PageNotFound">
-            <main class="fof-container">
-                <div class="fof">
+            <main className="fof-container">
+                <div className="fof">
                     <h1>Error 404</h1>
                     <Link to="/"><p>Return Home</p></Link>
                 </div>
